@@ -4,7 +4,7 @@ class SplitAndCombineFiles:
     def __init__(self):
         self.__input_file_name = None
         self.__chunk = None
-        self.__postfix = '.ros'
+        self.__postfix = '.split_zip'
         self.f_size = 0
         self.check_list = ""
 
