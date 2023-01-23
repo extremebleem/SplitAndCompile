@@ -174,7 +174,4 @@ class SplitAndCombineFiles:
 
     def merge(self, input_file_name):
         self.__merge(input_file_name)
-        
-if __name__ == '__main__':
-    dummy = SplitAndCombineFiles()
-    dummy.split('helpers.py')
+       
